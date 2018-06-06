@@ -89,6 +89,9 @@ LEVEL 2. MENU STYLES
   font-weight: 700;
   text-transform: uppercase;
 }
+.menu__group span a{
+  color: var(--white);
+}
 
 .menu__group_active{
   background-color: var(--colorWhite);
@@ -291,7 +294,7 @@ body{
 }
 
 a{
-  color: var(--colorMainDark);
+  color: var(--colorWhite);
 }
 body{
   background-color: var(--colorBlack);
