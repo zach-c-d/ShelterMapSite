@@ -275,7 +275,7 @@ LEVEL 3. MOBILE ANIMATION STYLES
 body{
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
   font-size: 1.6rem;
-  color: var(--colorBlack);
+  color: var(--colorWhite);
 
   margin: 0;
   -webkit-overflow-scrolling: touch;
@@ -291,10 +291,10 @@ body{
 }
 
 a{
-  color: var(--colorMain);
+  color: var(--colorMainDark);
 }
 body{
-  background-color: black;
+  background-color: var(--colorBlack);
 }
 .page{
   min-height: 100vh;
